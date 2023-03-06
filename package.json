@@ -11,9 +11,12 @@
   "devDependencies": {
     "@nuxt/image-edge": "^1.0.0-27954023.4cee565",
     "@nuxtjs/tailwindcss": "^6.4.1",
+    "@vueuse/core": "^9.13.0",
+    "@vueuse/nuxt": "^9.13.0",
     "nuxt": "^3.2.3",
-    "nuxt-icon": "^0.3.2",
-    "nuxt3-animejs": "^1.1.5"
+    "nuxt-icon": "^0.3.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@vueuse/motion": "^2.0.0-beta.23"
+  }
 }
