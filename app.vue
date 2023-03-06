@@ -1,10 +1,12 @@
 <template>
-  <div class="h-screen bg-[url('1.svg')] backdrop-brightness-50 bg-no-repeat bg-cover  text-white relative">
+  <div class="h-screen bg-[url('1.svg')] backdrop-brightness-50 bg-no-repeat bg-cover  text-white relative overflow-hidden">
     <span class="absolute top-2 left-1/2 font-space font-semibold">{{ slide }} / {{ maxSlides }}</span>
 
     <!-- First slide -->
-    <Intro v-if="slide === 0" class="animatable"/>
-
+    <TransitionGroup>
+      <Intro v-if="slide === 0" class="animatable" />
+      <Basics v-if="slide === 1" class="" />
+    </TransitionGroup>
 
     <!-- Navigation -->
     <Icon name="ph:caret-right-bold" class="absolute bottom-3 right-3 h-8 w-8 cursor-pointer" @click="nextSlide" />
@@ -15,42 +17,31 @@
 </template>
 
 <script setup lang="ts">
+
+import { onKeyUp } from '@vueuse/core';
 import 'assets/css/tailwind.css'
-const { $anime } = useNuxtApp()
 const maxSlides = 5;
 
 onMounted(() => {
 
-  onkeyup = (e) => {
-    if (e.key === 'ArrowRight') {
+  onKeyUp(true, (e: KeyboardEvent) => {
+    
+    if (e.key === "ArrowRight") {
       nextSlide()
-    } else if (e.key === 'ArrowLeft') {
+      clearTimeout(inter)
+    } else if (e.key === "ArrowLeft") {
       prevSlide()
     }
-  };
 
+  });
 
-  $anime({
-    targets: '.animatable',
-    opacity: [0, 1],
-    easing: 'easeInOutQuad',
-    duration: 1000,
-    delay: 1000
-  })
+  let inter = setTimeout(() => {
+    nextSlide()
+  }, 5000);
 
-})
+});
 
-onUnmounted(() => {
-  onkeyup = null
-  $anime({
-    targets: '.animatable',
-    opacity: [1, 0],
-    easing: 'easeInOutQuad',
-    duration: 1000,
-  })
-})
-
-let slide = ref(0)
+let slide = ref(-1)
 
 const nextSlide = () => {
   if (slide.value === maxSlides) {
@@ -66,12 +57,18 @@ const prevSlide = () => {
   }
   slide.value--
 
-
-
 }
 
 </script>
 
 <style>
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.3s ease-in-out;
+}
 
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
 </style>

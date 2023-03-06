@@ -5,7 +5,5 @@ export default defineNuxtConfig({
         '@nuxt/image-edge',
         'nuxt-icon',
         '@vueuse/nuxt',
-        '@vueuse/motion/nuxt'
     ],
-
 })
