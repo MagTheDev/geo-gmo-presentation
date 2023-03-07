@@ -11,6 +11,8 @@
  - How to do it
  - Fancy graphs
 
+
+
 ## Explanation
 
 GMO - Geneticky modifikované organizmy sú organizmy, ktorých genetická informácia
@@ -18,6 +20,7 @@ bola upravená s cieľom zlepšenia ich vlasností. Často sa o tom hovorí ako 
 tradičného šlachtenia ale s tým rozdielom, že šlachtením sa dajú dosiahnuť iba prirodzené
 zmeny, zatial čo v prípade GMO môže ísť aj o zmeny, ktoré sa bežne v prírode nemôžu
 vyskytnúť. Takýmto spôsobom sa dajú napríklad preniesť aj gény zo živočícha na rastilnu a naopak.
+
 
 
 ## Slovakia
@@ -34,7 +37,22 @@ na svojom výrobku označiť.
 mapka: https://imgur.com/a/WLXURPN
 
 
+
 ## Largest producers
+
+Largest producers
+
+K zďaleka najväčšiemu výrobcovi patrí USA hlavne kvôli ich liberálnejšiemu prístupu ku GMO už od začiatku ich
+pestovania a pestovenie tam zaberá vyše 71 hetárov. Další významný pestovatelia sú Juhoamerické krajiny Brazília,
+ktorá pestuje na priblížne 52 hektároch a Argentína na 24 hektároch. Tiež významný pestovatelia sú Kanada a India,
+obaja pestujú na priblízne 12 hektároch. K ostatným pestovatelom parí Čína, Južná afrika, Pakistán, Bolívia a Paraguaj,
+z ktorých všetci pestujú na ploche pod 5 hektárov.
+
+stats: https://www.statista.com/statistics/271897/leading-countries-by-acreage-of-genetically-modified-crops/
+stats2: http://www.genewatch.org/sub-532326
+graf: https://imgur.com/a/UJt6Zgn
+
+
 
 ## Most used plants
 
