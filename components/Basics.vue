@@ -24,7 +24,7 @@
 
 
             <div class="flex flex-col gap-5 justify-center items-center backdrop-blur-2xl  bg-deep-100/[.03] p-10 rounded relative">
-                <h1 class="text-8xl underline "> Základy </h1>
+                <h1 class="text-8xl underline font-semibold"> Základy </h1>
                 <div>
                     <ul class="text-3xl list-outside list-disc mx-8">
                         <li class="mb-4 transition-opacity" :style="{ opacity: step < 1 ? '0' : '1' }">

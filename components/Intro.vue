@@ -38,8 +38,6 @@
 
 <style scoped>
 
-
-
     .blue {
         --color-end: #007CF0;
         --color-start: #00DFD8;
