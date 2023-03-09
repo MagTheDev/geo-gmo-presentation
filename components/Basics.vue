@@ -1,7 +1,7 @@
 <template>
     <div class="h-full w-full flex gap-5 justify-center items-center font-space relative">
         
-        <div class="w-fit h-fit relative">
+        <div class="w-10/12 h-fit relative ">
 
             <div class="absolute top-20 -right-3 w-24 h-24 bg-gradient-to-br from-[#FF4D4D] to-[#f7e479] rounded -z-[1] float"
             :style="{ animationDelay: getRandomDelay() }" />
@@ -23,7 +23,7 @@
 
 
 
-            <div class="flex gap-5 justify-center items-center backdrop-blur-2xl  bg-deep-100/[.03] p-10 rounded relative">
+            <div class="flex flex-col gap-5 justify-center items-center backdrop-blur-2xl  bg-deep-100/[.03] p-10 rounded relative">
                 <h1 class="text-8xl underline "> Základy </h1>
                 <div>
                     <ul class="text-3xl list-outside list-disc mx-8">
