@@ -4,8 +4,9 @@
 
     <!-- First slide -->
     <TransitionGroup>
-      <Intro v-if="slide === 0" class="animatable" />
-      <Basics v-if="slide === 1" class="" />
+      <Intro v-if="slide === 0"  />
+      <Basics v-if="slide === 1" />
+      <EuStance v-if="slide === 2" />
     </TransitionGroup>
 
     <!-- Navigation -->
