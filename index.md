@@ -25,6 +25,23 @@ vyskytnúť. Takýmto spôsobom sa dajú napríklad preniesť aj gény zo živo�
 
 ## Slovakia
 
+
+
+## Health effects
+
+Molekulárna biológia zatial nie je dosť rozvinutá a stále nemá odpovede na mnoho otázok týkajúcich sa bezpečnosti GMO.
+Spôsob vkladania nového génu do rastliny tiež nie je úplne presný, keďže nevieme ovplyvniť koľko jedincov nového génu
+sa dostane do bunky a nevieme ovplyvniť ani gény, s ktorými ten nový bude susediť. Toto môže spôsobiť všeliake veľajšie
+účinky pre modifikovaný organizmus. Napríklad niektoré geneticky modifikované melóny praskajú pred dozretím, alebo
+niektoré zvieratá, ktoré mali modifikovaný rastový hormón boli často agresívnejšie a mali väčšiu náchylnosť na cukrovku.
+Čo sa týka zdravotných následkov pre konzumenta, nie je veľa známe. Väčšina štúdii dokázala, že geneticky modifikované potraviny
+sú bezpečné ale okolo roku 2000, dvaja biológovia, ktorý skúmali dopad konzumácie GMP na zvieratách, našli
+zmeny na ich obličkách a pečeni. Momentálne sú pripravované rôzne štúdie o dopade konzumácie geneticky modifikovaných potravín
+na zdravie konzumenta, ale biotechnologické firmy ako Monsanto robia všetko preto aby sa neuskutočnili, pretože sa boja, že sa niečo
+nájde a ich výnosy budú ohrozené.
+
+
+
 ## EU stance
 
 V Európskej únii je pestovanie a predávanie GMO možné len s povolením, ktoré eú udeluje pre všetky členské krajiny,
@@ -40,8 +57,6 @@ mapka: https://imgur.com/a/WLXURPN
 
 ## Largest producers
 
-Largest producers
-
 K zďaleka najväčšiemu výrobcovi patrí USA hlavne kvôli ich liberálnejšiemu prístupu ku GMO už od začiatku ich
 pestovania a pestovenie tam zaberá vyše 71 hetárov. Další významný pestovatelia sú Juhoamerické krajiny Brazília,
 ktorá pestuje na priblížne 52 hektároch a Argentína na 24 hektároch. Tiež významný pestovatelia sú Kanada a India,
@@ -55,4 +70,18 @@ graf: https://imgur.com/a/UJt6Zgn
 
 
 ## Most used plants
+
+Najviac modifikovaná rastlina je určite kukurica, ktorá je napestovanejšia v USA (najväčší pestovatel) a kukurica
+sa ako jediná môže pestovať v eú. Ďalšia často modifikovaná rastlina je Sója, ktorá je tiež veľmi rozšírená v USA a
+k ďalším často modifikovaným rastlinám patri bavlna, zemiaky, papaya a letná tekvica.
+
+
+
+## How to do it
+
+Po analýze dna a zistení potrebnej zmeny je potrebné nový gén izolovať.
+Aby tento nový gén ale prenikol do bunky príjemcu, treba preraziť jej steny. To sa dá dosiehnúť mikročasticami zo
+zlata alebo platiny, kde sa nachádzjú nové gény, ktoré sú potom vstrelené do semienka. Potom stačí zasadiť gmo a
+pestovať ho v kontrolovanom prostredí aby sa zabezpečil jeho rast a replikácia. V prípade zvierat je nový gén
+väčšinou vstreknutý injekciou.
 
