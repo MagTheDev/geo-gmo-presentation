@@ -25,6 +25,13 @@ vyskytnúť. Takýmto spôsobom sa dajú napríklad preniesť aj gény zo živo�
 
 ## Slovakia
 
+Aj keď pestovanie gmo v eú nie je veľmi rozšírené, Slovensko je jedna z mála krajín, kde sa GMO pestovala.
+V roku 2013 sa gmo kukurica pestovala na 225 000 hektároch ale plocha pestovania sa postupom času zvyšovala
+a je možné, že neskôr to už bolo viac. Proti pestovaniu gmo na slovensku sa postavilo aj veľa aktivistov a od
+roku 2017 sa už modifikovaná kukurica u nás nepestuje.
+
+graf: https://imgur.com/a/LpHA3KP
+
 
 
 ## Health effects
@@ -58,10 +65,10 @@ mapka: https://imgur.com/a/WLXURPN
 ## Largest producers
 
 K zďaleka najväčšiemu výrobcovi patrí USA hlavne kvôli ich liberálnejšiemu prístupu ku GMO už od začiatku ich
-pestovania a pestovenie tam zaberá vyše 71 hetárov. Další významný pestovatelia sú Juhoamerické krajiny Brazília,
-ktorá pestuje na priblížne 52 hektároch a Argentína na 24 hektároch. Tiež významný pestovatelia sú Kanada a India,
-obaja pestujú na priblízne 12 hektároch. K ostatným pestovatelom parí Čína, Južná afrika, Pakistán, Bolívia a Paraguaj,
-z ktorých všetci pestujú na ploche pod 5 hektárov.
+pestovania a pestovenie tam zaberá vyše 71 milión hektárov. Další významný pestovatelia sú Juhoamerické krajiny Brazília,
+ktorá pestuje na priblížne 52 milión hektároch a Argentína na 24 milión hektároch. Tiež významný pestovatelia sú Kanada a India,
+obaja pestujú na priblízne 12 milión hektároch. K ostatným pestovatelom parí Čína, Južná afrika, Pakistán, Bolívia a Paraguaj,
+z ktorých všetci pestujú na ploche pod 5 milión hektárov.
 
 stats: https://www.statista.com/statistics/271897/leading-countries-by-acreage-of-genetically-modified-crops/
 stats2: http://www.genewatch.org/sub-532326
