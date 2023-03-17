@@ -6,7 +6,9 @@
     <TransitionGroup>
       <Intro v-if="slide === 0"  />
       <Basics v-if="slide === 1" />
-      <EuStance v-if="slide === 2" />
+      <Health v-if="slide === 2" />
+      <EuStance v-if="slide === 3" />
+      
     </TransitionGroup>
 
     <!-- Navigation -->

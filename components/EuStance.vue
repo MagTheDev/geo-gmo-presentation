@@ -17,13 +17,13 @@
             </ul>
             <div v-if="step > 7" class="z-10 relative" >
                 <NuxtImg src="/eu_gmo.svg" />
-                <div>
-                    <div class="w-5 h-5 rounded bg-[#AE9c6E]"></div>
-                    <span></span>
+                <div class="absolute top-0 left-0 flex">
+                    <div class="w-5 h-5 rounded bg-[#AE9c6E] "></div>
+                    <span class="ml-6">Pestovalo sa</span>
                 </div>
-                <div>
-                    <div class="w-5 h-5 rounded bg-[#86B742]"></div>
-                    <span></span>
+                <div class="absolute top-6 left-0 flex">
+                    <div class="w-5 h-5 rounded bg-[#86B742] "></div>
+                    <span class="ml-6">Zakazaná</span>
                 </div>
             </div>
         </div>
