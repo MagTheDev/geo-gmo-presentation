@@ -27,11 +27,14 @@
                 <h1 class="text-8xl underline font-semibold"> Producenti </h1>
                 <div>
                     <ul class="text-3xl list-outside list-disc mx-8">
-                        <li class="mb-4 transition-opacity" :style="{ opacity: step < 1 ? '0' : '1', display: step > 1 ? 'none' : 'block' }">
-                            Najvecsi producent je USA - Libreralny pristup ku gmo
+                        <li class="mb-4 transition-opacity" :style="{ opacity: step < 1 ? '0' : '1', display: step > 2 ? 'none' : 'block' }">
+                            Najväčší pestovaťel je USA - Liberálny prístup ku GMO
+                        </li>
+                        <li class="mb-4 transition-opacity" :style="{ opacity: step < 2 ? '0' : '1', display: step > 2 ? 'none' : 'block' }">
+                            Další významný pestovatelia sú Juhoamerické krajiny Brazília, ktorá pestuje na priblížne 52 milión hektároch a Argentína na 24 milión hektároch
                         </li>
                     </ul>
-                    <div v-if="step === 2" class="w-11/12">
+                    <div v-if="step === 3" class="w-10/12">
                         <img src="/producers.png" >
                     </div>
                 </div>
@@ -42,7 +45,7 @@
 
 <script setup lang="ts">
 import { onKeyUp } from '@vueuse/core';
-const maxSteps = 2;
+const maxSteps = 3;
 
 const step = ref(0)
 

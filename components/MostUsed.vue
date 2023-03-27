@@ -24,23 +24,25 @@
 
 
             <div class="flex flex-col gap-5 justify-center items-center backdrop-blur-2xl  bg-deep-100/[.03] p-10 rounded relative">
-                <h1 class="text-8xl underline font-semibold"> Zdravie </h1>
+                <h1 class="text-8xl underline font-semibold"> Producenti </h1>
                 <div>
                     <ul class="text-3xl list-outside list-disc mx-8">
-                        <li class="mb-4 transition-opacity" :style="{ opacity: step < 1 ? '0' : '1' }">
-                            Molekulárna Bio. ešte nieje dostatočne rozvinutá
+                        <li class="mb-4 transition-opacity" :style="{ opacity: step < 1 ? '0' : '1', display: step > 4 ? 'none' : 'block' }">
+                            Najviac pestovaná je kukurica - hlavne USA
                         </li>
-                        <li class="mb-4 transition-opacity" :style="{ opacity: step < 2 ? '0' : '1' }">
-                            Málo informácií, ale štúdie do roku 2000 dokázali že sú bezpečné
+                        <li class="mb-4 transition-opacity" :style="{ opacity: step < 2 ? '0' : '1', display: step > 4 ? 'none' : 'block' }">
+                            Kukurica je ako jediná dovolená v EÚ
                         </li>
-                        <li class="mb-4 transition-opacity" :style="{ opacity: step < 3 ? '0' : '1' }">
-                            V roku 2000 - Dvaja biológovia pozorovali zmeny na obličkách a pečeni na zvieratách
+                        <li class="mb-4 transition-opacity" :style="{ opacity: step < 3 ? '0' : '1', display: step > 4 ? 'none' : 'block' }">
+                            Často pestovaná je aj Sója
                         </li>
-                        <li class="mb-4 transition-opacity" :style="{ opacity: step < 4 ? '0' : '1' }">
-                            Pripravované rôzne štúdie o dopade konzumácie - Biotechnické firmy sa tomu bránia
+                        <li class="mb-4 transition-opacity" :style="{ opacity: step < 4 ? '0' : '1', display: step > 4 ? 'none' : 'block' }">
+                            K ďaľším rastlinám patrí bavlna, zemiaky, papaya a letná tekvica.
                         </li>
-                        
                     </ul>
+                    <div v-if="step === 5" class="w-11/12">
+                        <img src="/gm-crops.jpeg" >
+                    </div>
                 </div>
             </div>
         </div>
@@ -49,7 +51,7 @@
 
 <script setup lang="ts">
 import { onKeyUp } from '@vueuse/core';
-const maxSteps = 5;
+const maxSteps = 6;
 
 const step = ref(0)
 

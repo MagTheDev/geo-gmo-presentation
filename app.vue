@@ -9,6 +9,7 @@
       <Health v-if="slide === 2" />
       <EuStance v-if="slide === 3" />
       <Producers v-if="slide === 4"/>
+      <MostUsed v-if="slide === 5"/>
       
     </TransitionGroup>
 
