@@ -1,10 +1,10 @@
 <template>
-    <div class="h-full w-full flex gap-5 justify-center items-center font-space ">
+    <div class="h-full w-full flex gap-5 justify-center items-center">
         <div class="flex flex-col h-fit m-6 px-20 py-5  rounded-md ">
             <span class="text-8xl font-bold blue gradient pb-2" :class="blue"> Geneticky </span>
             <span class="text-8xl font-bold purple gradient pb-2" :class="purple">Modifikované</span>
             <span class="text-8xl font-bold orange gradient pb-2" :class="orange">Organizmy</span>
-            <span class="text-xl mt-5">
+            <span class="text-xl mt-5 font-light">
                 By Jakub <span class="blue gradient" :class="blue">Tulek</span>, Richard <span class="purple gradient" :class="purple">Sepši</span> 
             </span>
         </div>

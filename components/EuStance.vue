@@ -1,6 +1,6 @@
 <template>
 
-    <div class="h-full w-full flex gap-5 justify-center items-center font-space">
+    <div class="h-full w-full flex gap-5 justify-center items-center">
 
         <div class="flex flex-col gap-5 justify-center items-center backdrop-blur-2xl  bg-deep-100/[.03] p-10 rounded relative">
             <h1 class="text-8xl underline font-semibold">

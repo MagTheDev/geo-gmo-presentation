@@ -1,5 +1,5 @@
 <template>
-    <div class="h-full w-full flex gap-5 justify-center items-center font-space relative">
+    <div class="h-full w-full flex gap-5 justify-center items-center relative">
         
         <div class="w-10/12 h-fit relative ">
 
